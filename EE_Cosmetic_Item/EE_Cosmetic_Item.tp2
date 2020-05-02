@@ -3,7 +3,7 @@
 BACKUP ~EE_Cosmetic_Item/backup~
 SUPPORT ~https://forums.beamdog.com/discussion/76631/mod-siege-of-dragonspear-2-baldurs-gate2-ee-item-upgrade~
 
-VERSION ~v0.9.1~
+VERSION ~v0.9.2~
 
 README ~EE_Cosmetic_Item/readme.html~
 
@@ -123,7 +123,7 @@ COPY_EXISTING ~bolt05.itm~ ~override~		//Bolt of Polymorphing
 
 COPY_EXISTING ~arow04.itm~ ~override~		//Acid Arrow +1
 	LPF ALTER_ITEM_HEADER INT_VAR projectile = EVAL "%dtkaciar%" END
-		LPF CLONE_EFFECT INT_VAR match_opcode = 12 match_parameter2 = 65536 opcode = 215 parameter2 = 1 STR_VAR resource = shacid dicenumber = 0 dicesize = 0 timing = 0 END // adds hit visual effect in proper location by cloning existing hit effect and changing it
+		LPF CLONE_EFFECT INT_VAR match_opcode = 12 match_parameter2 = 65536 opcode = 215 parameter2 = 0 STR_VAR resource = shacid dicenumber = 0 dicesize = 0 timing = 0 END // adds hit visual effect in proper location by cloning existing hit effect and changing it
   BUT_ONLY IF_EXISTS
 
 COPY_EXISTING ~bddart01.itm~ ~override~		//Biter +2
@@ -2349,6 +2349,22 @@ COPY_EXISTING ~ulswd5b.itm~ ~override~	 //Bhaal's Fire +3
 
 
 
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+/////                                                  \\\\\
+///// IWD:EE add Bhaal's Fire and Benorg's Truth	   \\\\\
+/////                                                  \\\\\
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+BEGIN @1005
+REQUIRE_PREDICATE GAME_IS ~iwdee~ @1004
+PRINT @1001
+
+INCLUDE ~EE_Cosmetic_Item/lib/functions.tpa~		//adding functions
+
+COPY_EXISTING ~rndtres.2da~ ~override~
+	SET_2DA_ENTRY 71 4 21 ~U1HAX4B~
+	SET_2DA_ENTRY 56 4 21 ~ULSWD5B~
 
 /////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
 /////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\

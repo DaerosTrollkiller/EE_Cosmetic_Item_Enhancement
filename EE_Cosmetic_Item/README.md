@@ -1,19 +1,9 @@
-# Siege of Dragonspear to Baldur's Gate II: Enhanced Edition Item Upgrade
-
-[![Latest Release](https://img.shields.io/github/v/release/gibberlings3/SoD-to-BG2EE-Item-Upgrade?include_prereleases)](https://github.com/Gibberlings3/SoD-to-BG2EE-Item-Upgrade/releases/latest)
-![Language](https://img.shields.io/static/v1?label=language&message=english&color=informational)
-![Platform](https://img.shields.io/static/v1?label=platform&message=windows%20%7C%20macos%20%7C%20linux&color=informational)
-
-[A Gibberlings Three Mod](https://www.gibberlings3.net/)
-
-**Author**: [Daeros_Trollkiller](https://www.gibberlings3.net/profile/11100-daeros_trollkiller/)
-
 
 ## Introduction
 
-As I have been playing through and enjoying the enahnced editions of Baldur's Gate, Baldur's Gate 2, and Icewind Dale, there are many times where I would obtain a new item, and could'nt wait to see that it would look like on my character, only to be sorely disappointed by how bland or uninspired it looked.  
+As I have been playing through and enjoying the enhanced editions of Baldur's Gate, Baldur's Gate 2, and Icewind Dale, there are many times where I would obtain a new item, and couldn't wait to see that it would look like on my character, only to be sorely disappointed by how bland or uninspired it looked.  
 
-I thought that certainly I could'nt be the only one who thought this, so I have created this mod to address what I consider to be one of the most overlooked areas of the Enhanced Edtions - Item Cosmetics
+I thought that certainly I couldn't be the only one who thought this, so I have created this mod to address what I consider to be one of the most overlooked areas of the Enhanced Editions - Item Cosmetics
 
 ## Content
 
