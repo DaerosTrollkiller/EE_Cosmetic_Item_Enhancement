@@ -1,0 +1,683 @@
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+/////                                                  \\\\\
+///// Setup dialogues                                  \\\\\
+/////                                                  \\\\\
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+@10 = ~Enhanced Edition Cosmetic Enhancements by Daeros_Trollkiller~
+@11 = ~Installing.........This may take a moment.~
+@12 = ~This component is not compatible with your game.  It is only compatible with BG:EE, BG2:EE and EE Trilogy~
+@13 = ~This component is not compatible with your game.  It is only compatible with Icewind Dale:Enhanced Edition~
+@14 = ~This component is not compatible with your game.  It is only compatible with BG:EE, BG2:EE, EE Trilogy, and IWD:EE~
+@15 = ~This component is not compatible with Spell Revisions at this time.  Please uninstall Spell Revisions and remove it's files from your game directory if you wish to install this component.~
+
+
+@1000 = ~Cosmetic item enhancements~
+@1001 = ~Item cosmetic enhancements: Includes new icons, projectiles, recoloring, and addition of pulse and solid glows~
+@1002 = ~Add Bhaal's Fire and Benorg's Truth into loot tables - IWD:EE~
+@1003 = ~Remove annoying visual effects from equipped items: blur, cloak of mirroring, reflection shield(does not affect spells with these effects).~
+@1004 = ~Remove pulse glows from all armor(armor, helmets, shields)~
+
+
+@1100 = ~Cosmetic on-hit audio-visual effect enhancements (fire, cold, acid, electricity)~
+@1101 = ~IWD-style on-hit effects~
+@1102 = ~BG-style on-hit effects~
+@1103 = ~IWD-style on-hit visual, BG-style sounds~
+@1104 = ~BG-style on-hit visual, IWD-style sounds~
+@1105 = ~IWD-style fire, elec visual with BG-style sounds.  IWD-style cold visual + sound.  BG-style acid visual + sound~
+@1106 = ~BG-style fire, elec, acid visual + sound.  IWD-style cold visual + sound.~
+@1107 = ~IWD-style fire visual + BG-style sound.  IWD-style cold visual + sound.  BG style elec(recolored) visual + sound.  BG style acid visual + sound.~
+@1108 = ~IWD-style fire visual + BG-style sound.  IWD-style cold visual + sound.  BG style elec(recolored) visual + sound.  IWD-style acid visual + sound.~
+@1109 = ~IWD-style fire, elec visual with BG-style sounds.  IWD-style cold visual + sound.  IWD-style acid visual with BG-style sound~
+
+
+@1200 = ~Cosmetic spell enhancements and tweaks~
+@1201 = ~IWD-style spell audio-visual effects~
+@1202 = ~Lightning bolts don't bounce~
+@1203 = ~Lightning bolts stop when they hit a target~
+@1204 = ~Lightning bolts pass through targets until they hit a wall~
+
+
+@1300 = ~Animation enhancements~
+@1301 = ~IWD-style animations for Nishruu and Hakaeshar~
+@1302 = ~IWD-style animations for Elementals~
+@1303 = ~All elementals~
+@1304 = ~All elementals except princes~
+@1305 = ~IWD-style animations for metal golems (iron, adamantite)~
+@1306 = ~IWD-style Umber Hulks and Umber Hulk Elders~
+@1307 = ~Improved slime-type monster animations~
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+/////                                                  \\\\\
+///// item names and descriptions                      \\\\\
+/////                                                  \\\\\
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+@2000 = ~During the time of troubles, when the gods walked amongst mortals, many of them sought, by any means necessary, to protect themselves and prevent their deaths at any cost.  Bhaal was no exception.  Bhaal conscripted many dark elven and dueregar smiths to forge this blade for him, granting it a portion of his godly essence to empower it.  Not only does it burn enemies with hellfire upon each strike, the intensity of the heat can stun foes for a period of time, allowing the weilder to eviscerate their foes, piece by piece.  How Bhaal lost this blade, or how it came into your possession is a mystery for the ages, but your enemies would do well to give you a wide berth when faced with this sword, lest they end up as another of the number of souls whom have fallen beneath this fell blade.
+
+STATISTICS:
+
+Combat abilities:
+– 15% chance target is stunned for 2 rounds
+
+THAC0: +3
+Damage: 1d8+3, +2d4 fire
+Damage Type: Slashing
+Speed Factor: 4
+Proficiency Type: Long Sword
+Type: One-handed
+Requires:
+ 6 Strength
+
+Weight: 4~
+@2001 = ~Much more than just an average bullet, these perfectly rounded and balanced stones have been enhanced with fire magics, making them the perfect companion for troll hunting and keeping oneself warm in the frozen north. 
+
+STATISTICS:
+
+Combat abilities:
+– 50% chance of 2d6 fire damage (Save vs. Spell negates)
+
+THAC0: +2
+Damage: 1d4+2 (missile)
+Launcher: Sling
+
+Weight: 0~
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\////////////////////
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\////////////////////
+/////                                                  					   \\\\\
+///// Spell descriptions - for updated spells in IWD spell visual component\\\\\
+/////                                                  					   \\\\\
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\////////////////////
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\////////////////////
+@3000 = ~Cause Serious Wounds
+(Necromancy)
+
+Level: 4
+Sphere: Healing
+Range: Touch
+Duration: Instant
+Casting Time: 5
+Area of Effect: 1 creature
+Saving Throw: 1/2
+
+By casting this spell and touching a creature, the priest deals 17 points of damage (save vs. Spell for half) to the creature's body. This spell has no effect on undead, constructs, or extraplanar creatures. It cannot be cast by good-aligned characters.~
+@3001 = ~Cause Critical Wounds
+(Necromancy)
+
+Level: 5
+Sphere: Healing
+Range: Touch
+Duration: Instant
+Casting Time: 8
+Area of Effect: 1 creature
+Saving Throw: 1/2
+
+By casting this spell and touching a creature, the priest deals 27 points of magic damage (save vs. Spell for half) to the creature's body. This spell has no effect on undead, constructs, or extraplanar creatures. It can be cast only by evil-aligned characters.~
+@3002 = ~Harm
+(Necromancy)
+
+Level: 6
+Sphere: Healing
+Range: Touch
+Duration: Instant
+Casting Time: 9
+Area of Effect: 1 creature
+Saving Throw: Neg.
+
+When this spell is cast, the caster gains the ability to touch a target and inflict tremendous damage, reducing the target to all but 1d4 Hit Points. A Save vs. Spell negates the effect. This spell has no effect on undead, constructs, or extraplanar creatures. It can only be cast by evil-aligned characters.~
+@3003 = ~Insect Plague
+(Conjuration/Summoning)
+
+Level: 5
+Sphere: Combat
+Range: Visual range of the caster
+Duration: 15 rounds
+Casting Time: 9
+Area of Effect: 14-ft. radius
+Saving Throw: None
+
+This spell summons a swarm of creeping, hopping, and flying insects. Creatures within the swarm suffer 1 Hit Point of piercing damage every round and a 100% chance of spell failure. Additionally, creatures with 2 or fewer Hit Dice will immediately panic, while creatures with 3 to 5 Hit Dice must save vs. Spell to avoid the same fate.
+
+Undead, constructs, and elementals are unaffected by the swarm.~
+@3004 = ~False Dawn
+(Evocation)
+
+Level: 6
+Sphere: Sun
+Range: 0
+Duration: Instant
+Casting Time: 9
+Area of Effect: 15-ft. radius
+Saving Throw: None
+
+False Dawn calls into existence a bright reddish light, as if a sunrise were occurring, within the area of effect. All undead creatures within the area suffer 6d6 points of fire damage and are blinded on the round after the false dawn appears. There is no Saving Throw.~
+@3005 = ~Sol's Searing Orb
+(Invocation)
+
+Level: 6
+Sphere: Sun
+Range: Visual range of the caster
+Duration: Instant
+Casting Time: 6
+Area of Effect: 1 creature
+Saving Throw: Special
+
+This spell allows the caster to hurl a brilliant, searing flash at a target. When it hits, it explodes in a flash of light, doing 6d12 points of fire damage to the target and blinding <PRO_HIMHER> for 3 rounds if a Save vs. Spell is failed. If the Saving Throw is made, the target only takes half damage and is not blinded. Undead creatures are particularly vulnerable to this spell, taking double damage.~
+@3006 = ~Slay Living
+(Necromancy)
+
+Level: 5
+Sphere: Combat
+Range: Touch
+Duration: Instant
+Casting Time: 9
+Area of Effect: 1 creature
+Saving Throw: Special
+
+This spell forces the target to Save vs. Death or be instantly killed. If the Saving Throw is successful, the target takes 2d8+1 points of magic damage instead. Note that a character struck with a Slay Living spell can still be raised from the dead with a Raise Dead or Resurrection spell. Slay Living cannot be cast by good-aligned characters.~
+@3007 = ~Monster Summoning I
+(Conjuration/Summoning)
+
+Level: 3
+Range: 20 ft.
+Duration: 2 rounds + 1 round/level
+Casting Time: 3
+Area of Effect: Special
+Saving Throw: None
+
+With the casting of this spell the wizard summons 2d3 1st-level monsters. These appear within spell range and can be commanded to attack the caster's opponents until the spell duration expires or the monsters are slain.~
+@3008 = ~Monster Summoning II
+(Conjuration/Summoning)
+
+Level: 4
+Range: 20 ft.
+Duration: 3 rounds + 1 round/level
+Casting Time: 4
+Area of Effect: Special
+Saving Throw: None
+
+With the casting of this spell the wizard summons 1d6 2nd-level monsters. These appear within spell range and can be commanded to attack the caster's opponents until the spell duration expires or the monsters are slain.~
+@3009 = ~Monster Summoning III
+(Conjuration/Summoning)
+
+Level: 5
+Range: 20 ft.
+Duration: 4 rounds + 1 round/level
+Casting Time: 5
+Area of Effect: Special
+Saving Throw: None
+
+With the casting of this spell the wizard summons 1d4 3rd-level monsters. These appear within spell range and can be commanded to attack the caster's opponents until the spell duration expires or the monsters are slain.~
+@3010 = ~Animal Summoning I
+(Conjuration/Summoning)
+
+Level: 4
+Sphere: Animal, Summoning
+Range: Visual range of the caster
+Duration: 1 hour
+Casting Time: 7
+Area of Effect: Special
+Saving Throw: None
+
+This spell summons up to 6 animals of 4 or fewer Hit Dice. It can be cast indoors or outdoors, and the types of animals summoned depend on the caster's surroundings when the spell is cast.~
+@3011 = ~Animal Summoning II
+(Conjuration/Summoning)
+
+Level: 5
+Sphere: Animal, Summoning
+Range: Visual range of the caster
+Duration: 1 hour
+Casting Time: 8
+Area of Effect: Special
+Saving Throw: None
+
+By means of this spell, the caster summons up to 6 animals that have 8 or fewer Hit Dice. Only normal or giant animals can be summoned; fantastic animals or monsters cannot be summoned by this spell (i.e. no dragons or elementals). This spell works indoors and outdoors.~
+@3012 = ~Animal Summoning III
+(Conjuration/Summoning)
+
+Level: 6
+Sphere: Animal, Summoning
+Range: Visual range of the caster
+Duration: 1 hour
+Casting Time: 9
+Area of Effect: Special
+Saving Throw: None
+
+A more powerful version of Animal Summoning II, Animal Summoning III allows the caster to call up to 4 animals of 16 or fewer Hit Dice. Only normal or giant animals can be summoned; fantastic animals or monsters cannot be summoned by this spell (i.e. no dragons or elementals). This spell can be cast indoors or outdoors.~
+@3013 = ~Animate Dead
+(Necromancy)
+
+Level: 3
+Sphere: Necromantic
+Range: Visual range of the caster
+Duration: 8 hours
+Casting Time: 9
+Area of Effect: Special
+Saving Throw: None
+
+This spell creates undead monsters, skeletons, or zombies, usually from the bones or bodies of dead humans, demihumans, or humanoids. The spell causes these remains to become animated and obey the simple verbal commands of the caster. The undead remain animated until they are destroyed in combat or are turned; they cannot be dispelled. The caster can animate skeletons, zombies or undead monsters in this manner.
+
+  1st – 6th: 1d6 of skeleton fighters, skeleton archers, tattered skeletons, zombies, or blood slimes.
+  7th – 10th: 1d5 of armored skeletons, ghouls, ghasts, wights, bonebats, ju-ju zombies, mummies, imbued wights, or crypt slimes.
+  11th – 14th: 1d4 of skeletal warriors, skeletal archers, skeletal mages, poison zombies, greater ghouls, slime zombies, wraith spiders, greater mummies, ghoul sludges, or vampiric wolves.
+  15th and up: 1d3 of fell skeletons, cold wights, barrow wights, fell ghasts, greater skeletal mages, greater wraith spiders, serrated skeletons, sarcophagus slimes, or vampiric mists.~
+@3014 = ~Conjure Fire Elemental
+(Conjuration/Summoning)
+
+Level: 6
+Sphere: Elemental (Fire), Summoning
+Range: Visual range of the caster
+Duration: 1 turn/level
+Casting Time: 9
+Area of Effect: Special
+Saving Throw: None
+
+Upon casting a Conjure Fire Elemental spell, the caster opens a special gate to the Elemental Plane of Fire, and a fire elemental is summoned in the vicinity of the caster. There is a 60% chance that a 12-Hit-Dice elemental appears; a 35% chance that a 16-Hit-Dice elemental appears; and a 5% chance that a 24-Hit-Dice elemental appears. The elemental will do the bidding of the caster until it is slain or the duration of the spell runs out. All the commands given to the elemental are done telepathically, so there is no time lost due to miscommunication and no need to know the language of the summoned creature.~
+@3015 = ~Conjure Earth Elemental 
+(Conjuration/Summoning)
+
+Level: 6
+Sphere: Elemental (Earth), Summoning
+Range: Visual range of the caster
+Duration: 1 turn/level
+Casting Time: 9
+Area of Effect: Special
+Saving Throw: None
+
+Upon casting a Conjure Earth Elemental spell, the caster opens a special gate to the Elemental Plane of Earth, and an earth elemental is summoned in the vicinity of the caster. There is a 60% chance that a 12-Hit-Dice elemental appears, a 35% chance that a 16-Hit-Dice elemental appears, and a 5% chance that a 24-Hit-Dice elemental appears. All of the commands given to the elemental are done telepathically, so there is no time lost due to miscommunication, and it is not necessary to know the language of the summoned creature.~
+@3016 = ~Conjure Earth Elemental 
+(Conjuration/Summoning)
+
+Level: 7
+Sphere: Elemental (Earth), Summoning
+Range: Visual range of the caster
+Duration: 1 turn/level
+Casting Time: 9
+Area of Effect: Special
+Saving Throw: None
+
+Upon casting a Conjure Earth Elemental spell, the caster opens a special gate to the Elemental Plane of Earth, and an earth elemental is summoned in the vicinity of the caster. There is a 60% chance that a 12-Hit-Dice elemental appears, a 35% chance that a 16-Hit-Dice elemental appears, and a 5% chance that a 24-Hit-Dice elemental appears. All of the commands given to the elemental are done telepathically, so there is no time lost due to miscommunication, and it is not necessary to know the language of the summoned creature.~
+@3017 = ~Conjure Air Elemental 
+(Conjuration/Summoning)
+
+Level: 6
+Sphere: Elemental (Air), Summoning
+Range: Visual range of the caster
+Duration: 1 turn/level
+Casting Time: 9
+Area of Effect: Special
+Saving Throw: None
+
+Upon casting a Conjure Air Elemental spell, the caster opens a special gate to the Elemental Plane of Air, and an air elemental is summoned in the vicinity of the caster. There is a 60% chance that a 12-Hit-Dice elemental appears, a 35% chance that a 16-Hit-Dice elemental appears, and a 5% chance that a 24-Hit-Dice elemental appears. All of the commands given to the elemental are done telepathically, so there is no time lost due to miscommunication, and it is not necessary to know the language of the summoned creature.~
+@3018 = ~Conjure Lesser Air Elemental
+(Conjuration/Summoning)
+
+Level: 5
+Range: 45 ft.
+Duration: 1 turn + 1 round/level
+Casting Time: 9
+Area of Effect: Special
+Saving Throw: None
+
+A wizard who casts a Conjure Lesser Air Elemental spell summons an air elemental to do <PRO_HISHER> bidding. The elemental has 8 Hit Dice and will serve the caster's every whim until banished back to its home plane, the spell's duration expires, or the elemental dies.~
+@3019 = ~Conjure Lesser Earth Elemental
+(Conjuration/Summoning)
+
+Level: 5
+Range: 45 ft.
+Duration: 1 turn + 1 round/level
+Casting Time: 9
+Area of Effect: Special
+Saving Throw: None
+
+A wizard who casts a Conjure Lesser Earth Elemental spell summons an air elemental to do <PRO_HISHER> bidding. The elemental has 8 Hit Dice and will serve the caster's every whim until banished back to its home plane, the spell's duration expires, or the elemental dies.~
+@3020 = ~Conjure Lesser Fire Elemental
+(Conjuration/Summoning)
+
+Level: 5
+Range: 45 ft.
+Duration: 1 turn + 1 round/level
+Casting Time: 9
+Area of Effect: Special
+Saving Throw: None
+
+A wizard who casts a Conjure Lesser Fire Elemental spell summons a fire elemental to do <PRO_HISHER> bidding. The elemental has 8 Hit Dice and will serve the caster's every whim until banished back to its home plane, the spell's duration expires, or the elemental dies.~
+@3021 = ~Goodberry
+(Alteration, Evocation)
+
+Level: 2
+Sphere: Plant
+Range: 0
+Duration: 3 days
+Casting Time: 9
+Area of Effect: 5 berries
+Saving Throw: None
+
+Casting a Goodberry spell creates a clump of magical berries that the caster can carry with <PRO_HIMHER>. These berries cure 5 points of damage when eaten. The berries will only last three days, so it's not advisable to carry them around for too long.~
+@3022 = ~Summon Insects
+(Conjuration/Summoning)
+
+Level: 3
+Sphere: Animal
+Range: 60 ft.
+Duration: 7 rounds
+Casting Time: 9
+Area of Effect: 1 creature
+Saving Throw: Neg.
+
+The Summon Insects spell attracts a cloud or swarm of normal insects to attack one enemy of the caster. This swarm gathers at a point chosen by the caster within the spell's range and attacks any single creature the caster points to. A successful Save vs. Breath Weapon with a -4 penalty negates the effects; otherwise, the victim takes 1 point of damage every 2 seconds for the duration of the spell. Moreover, the victim fights with a -2 penalty to <PRO_HISHER> attack roll and a -2 penalty to <PRO_HISHER> Armor Class. The swarm will repeatedly bite the target, making it very difficult to cast spells (50% chance of spell failure).
+
+Undead, constructs, and elementals are unaffected by the swarm.~
+@3023 = ~Call Woodland Beings
+(Conjuration/Summoning)
+
+Level: 4
+Sphere: Animal, Summoning
+Range: 25 ft.
+Duration: 3 turns
+Casting Time: 7
+Area of Effect: Special
+Saving Throw: None
+
+This spell summons forth a nymph to assist the party. The nymph has several priest spells at her disposal and will use them in the best interests of the party (these include Mental Domination, Confusion, and Mass Cure). She will remain under the caster's control until slain or the spell's duration expires.~
+@3024 = ~Conjure Animals
+(Conjuration/Summoning)
+
+Level: 6
+Sphere: Summoning
+Range: 30 ft.
+Duration: 4 turns
+Casting Time: 9
+Area of Effect: Special
+Saving Throw: None
+
+This spell allows the caster to summon forth and control 2 massive polar bears. These 9-HD bears will respond to the caster's every whim for the duration of the spell.~
+@3025 = ~Aerial Servant
+(Conjuration/Summoning)
+
+Level: 6
+Sphere: Summoning
+Range: 20 ft.
+Duration: 1 turn/level
+Casting Time: 9
+Area of Effect: Special
+Saving Throw: None
+
+This spell summons an aerial servant to do the caster's bidding. The servant will attack any enemies that the caster decides, staying until the duration of the spell expires or it is slain.~
+@3026 = ~Gate
+(Conjuration/Summoning)
+
+Level: 7
+Sphere: Summoning
+Range: 30 ft.
+Duration: 33 rounds
+Casting Time: 5
+Area of Effect: Special
+Saving Throw: None
+
+By means of this spell, the caster calls an outer-planar creature, the pit fiend, to attack <PRO_HISHER> foes—as well as <PRO_HIMHER>self if <PRO_HESHE>'s not careful. The caster must use a Protection From Evil spell on <PRO_HIMHER>self (and comrades) to keep the devil from noticing <PRO_HIMHER>. If the caster fails to protect <PRO_HIMHER>self in this manner, the pit fiend will tear the caster and <PRO_HISHER> companions apart piece by piece, then feast on the remains. Gate can only be cast by evil-aligned characters.~
+@3027 = ~Creeping Doom
+(Conjuration/Summoning)
+
+Level: 7
+Sphere: Animal, Summoning
+Range: Visual range of the caster
+Duration: 1 turn
+Casting Time: 9
+Area of Effect: Special
+Saving Throw: None
+
+Creeping Doom summons masses of insects that will promptly spread out and attack the caster's enemies. The swarms are composed of various beetles, spiders, and other creatures, each of which will sting once and die—as a result, the swarm will generally kill any creature not immune to normal attacks before the swarm is destroyed.~
+@3028 = ~Elemental Summoning
+
+Level: Quest
+Range: 30 ft.
+Duration: 1 turn
+Casting Time: 9
+Area of Effect: Special
+Saving Throw: None
+
+Drawing power from the environment, this spell summons 2 16-HD elementals randomly chosen from earth, air, water, or fire. The elementals stay for 1 turn and will obey the caster as long as they remain summoned. There is a 10% chance that a randomly chosen Elemental Prince will be summoned instead. The Elemental Princes rule over other elementals in their respective planes. The Elemental Prince of Air is Chan, the Elemental Prince of Earth is Sunnis, the Elemental Prince of Water is Ben-Hadar and the Elemental Prince of Fire is Zaaman Rul.~
+@3029 = ~Greater Elemental Summoning
+
+Level: Quest
+Range: 30 ft.
+Duration: 1 turn
+Casting Time: 9
+Area of Effect: Special
+Saving Throw: None
+
+Druids, having a more powerful link to the elements, can cast a stronger version of Elemental Summoning. This spell can summon the Elemental Princes themselves, randomly chosen from earth, air, water or fire. The Elemental Prince of Air is Chan, the Elemental Prince of Earth is Sunnis, the Elemental Prince of Water is Ben-Hadar, and the Elemental Prince of Fire is Zaaman Rul. The Elemental Princes stay for 1 turn and will obey the caster as long as they remain summoned.
+
+Requires: Elemental Summoning~
+@3030 = ~Enchanted Weapon
+(Enchantment/Charm)
+
+Level: 4
+Range: 0
+Duration: 24 hours
+Casting Time: 4
+Area of Effect: Special
+Saving Throw: None
+
+This spell conjures forth a +3 enchanted weapon that may be used by anyone. The weapon may be either a mace, axe, long sword, or short sword. The weapon stays in existence for 24 hours.~
+
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\////////////////////
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\////////////////////
+/////                                                  					   \\\\\
+///// Display strings                                                      \\\\\
+/////                                                  					   \\\\\
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\////////////////////
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\////////////////////
+@4000 = ~Blinded~
+@4001 = ~Freezing Touch~
+@4002 = ~Stunned~
+@4003 = ~Poisoned~
+@4004 = ~Held~
+@4005 = ~Gulp!~
+@4006 = ~Ice Storm~
+@4007 = ~You cannot cast this spell until the current casting has run out.~
+@4008 = ~Bleeding~
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\////////////////////
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\////////////////////
+/////                                                  					   \\\\\
+///// Display strings for creatures                                        \\\\\
+/////                                                  					   \\\\\
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\////////////////////
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\////////////////////
+@5000 = ~Fire Beetle~
+@5001 = ~Goblin~
+@5002 = ~Bombardier Beetle~
+@5003 = ~Goblin Elite~
+@5004 = ~Lizard Man~
+@5005 = ~Boring Beetle~
+@5006 = ~Ghoul~
+@5007 = ~Huge Spider~
+@5008 = ~Neo-Orog Avenger~
+@5009 = ~Tough Lizard Man~
+@5010 = ~Black Bear~
+@5011 = ~Wolf~
+@5012 = ~Cave Bear~
+@5013 = ~Dire Wolf~
+@5014 = ~Giant Snake~
+@5015 = ~Jaguar~
+@5016 = ~Wild Boar~
+@5017 = ~Worg~
+@5018 = ~Arctic Boar~
+@5019 = ~Dire Worg~
+@5020 = ~Desert Asp~
+@5021 = ~Goblin Berserker~
+@5022 = ~Goblin Shaman~
+@5023 = ~Goblin Worg Rider~
+@5024 = ~Orc Mage~
+@5025 = ~Half-Ogre~
+@5026 = ~Skeleton~
+@5027 = ~Skeleton Archer~
+@5028 = ~Zombie~
+@5029 = ~Ghast~
+@5030 = ~Ghoul~
+@5031 = ~Armored Skeleton~
+@5032 = ~Wight~
+@5033 = ~Ju-Ju Zombie~
+@5034 = ~Skeletal Mage~
+@5035 = ~Skeletal Warrior~
+@5036 = ~Wraith Spider~
+@5037 = ~Poison Zombie~
+@5038 = ~Greater Ghoul~
+@5039 = ~Cold Wight~
+@5040 = ~Barrow Wight~
+@5041 = ~Drowned Dead~
+@5042 = ~Fell Ghast~
+@5043 = ~Greater Skeletal Mage~
+@5044 = ~Serrated Skeleton~
+@5045 = ~Bonebat~
+@5046 = ~Fell Skeleton~
+@5047 = ~Greater Wraith Spider~
+@5048 = ~Lesser Earth Elemental~
+@5049 = ~Lesser Fire Elemental~
+@5050 = ~Creeping Doom~
+@5051 = ~Ben-Hadar~
+@5052 = ~Water Elemental~
+@5053 = ~Xvart~
+@5054 = ~Xvart Alchemist~
+@5055 = ~Kobold Witch Doctor~
+@5056 = ~Green Slime~
+@5057 = ~Rabid Gibberling~
+@5058 = ~Spider~
+@5059 = ~Slime Zombie~
+@5060 = ~Orc~
+@5061 = ~Orc Archer~
+@5062 = ~Blood Slime~
+@5063 = ~Yuan-Ti Priest~
+@5064 = ~Yuan-Ti~
+@5065 = ~Giant Spider~
+@5066 = ~Ochre Jelly~
+@5067 = ~Elite Orc~
+@5068 = ~Elite Orc Archer~
+@5069 = ~Elite Orc Shaman~
+@5070 = ~Lizard Man Shaman~
+@5071 = ~Bugbear~
+@5072 = ~Bugbear Shaman~
+@5073 = ~Mustard Jelly~
+@5074 = ~Yuan-Ti Elite~
+@5075 = ~Berserk Gibberling~
+@5076 = ~Crypt Jelly~
+@5077 = ~Ghoul Sludge~
+@5078 = ~Sarcophagus Slime~
+@5079 = ~Vampiric Wolf~
+@5080 = ~Vampiric Mist~
+@5081 = ~Tattered Skeleton~
+@5082 = ~Mummy~
+@5083 = ~Greater Mummy~
+@5084 = ~Imbued Wight~
+@5085 = ~Yuan-Ti Halfbreed~
+@5086 = ~Histachii~
+@5087 = ~Leopard~
+@5088 = ~Grizzly Bear~
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\////////////////////
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\////////////////////
+/////                                                  					   \\\\\
+///// Display strings for scripts                                          \\\\\
+/////                                                  					   \\\\\
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\////////////////////
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\////////////////////
+@6000 = ~*uses an oil flask*~
+@6001 = ~*quaffs a potion*~
+@6002 = ~Who calls Ben-Hadar, Prince of Water?!~
+@6003 = ~*spits a firebreath potion*~
+@6004 = ~*spits an icebreath potion*~
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\////////////////////
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\////////////////////
+/////                                                  					   \\\\\
+///// Spell Names                                                          \\\\\
+/////                                                  					   \\\\\
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\////////////////////
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\////////////////////
+@7000 = ~Axe~
+@7001 = ~Long Sword~
+@7002 = ~Short Sword~
+@7003 = ~Mace~
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\////////////////////
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\////////////////////
+/////                                                  					   \\\\\
+///// Item descriptions - for items created by spells                      \\\\\
+/////                                                  					   \\\\\
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\////////////////////
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\////////////////////
+@8000 = ~Created by the Goodberry spell, these simple looking blueberries will heal 5 points of damage for each bunch of berries eaten.
+
+STATISTICS:
+
+Special: Heals 5 Hit Points
+
+Weight: 0~
+@8001 = ~Battle Axe +3~
+@8002 = ~This weapon has been created by the Enchanted Weapon spell. It behaves as a battle axe +3 in all respects.
+
+STATISTICS:
+
+THAC0: +3
+Damage: 1d8+3 (slashing)
+Speed Factor: 2
+Proficiency Type: Axe
+Type: One-handed
+Requires:
+ 10 Strength
+
+Weight: 0~
+@8003 = ~Long Sword +3~
+@8004 = ~This weapon has been created by the Enchanted Weapon spell. It behaves as a long sword +3 in all respects.
+
+STATISTICS:
+
+THAC0: +3
+Damage: 1d8+3 (slashing)
+Speed Factor: 2
+Proficiency Type: Long Sword
+Type: One-handed
+Requires:
+ 6 Strength
+
+Weight: 0~
+@8005 = ~Short Sword +3~
+@8006 = ~This weapon has been created by the Enchanted Weapon spell. It behaves as a short sword +3 in all respects.
+
+STATISTICS:
+
+THAC0: +3
+Damage: 1d6+3 (piercing)
+Speed Factor: 0
+Proficiency Type: Short Sword
+Type: One-handed
+Requires:
+ 5 Strength
+
+Weight: 0~
+@8007 = ~Mace +3~
+@8008 = ~This weapon has been created by the Enchanted Weapon spell. It behaves as a mace +3 in all respects.
+
+STATISTICS:
+
+THAC0: +3
+Damage: 1d6+4 (crushing)
+Speed Factor: 4
+Proficiency Type: Mace
+Type: One-handed
+Requires:
+ 10 Strength
+
+Weight: 0~
+@8009 = ~Xvart firebreath potion~
+@8010 = ~Xvart icebreath potion~
+@8011 = ~Slime Zombie Attack~
+@8012 = ~Green Slime Attack~
+@8013 = ~Slime Attack~
+@8014 = ~Vampire Attack~
+@8015 = ~Imbued Wight Attack~
+@8016 = ~Histachii Attack~
+@8017 = ~Snake Attack~
+@8018 = ~Wild Boar Attack~
+@8019 = ~Arctic Boar Attack~
+@8020 = ~Leopard Attack~
+@8021 = ~Grizzly Bear Attack~
