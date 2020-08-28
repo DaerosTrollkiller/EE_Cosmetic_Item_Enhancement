@@ -3445,6 +3445,8 @@ ADD_PROJECTILE ~ee_cosmetic_enhancements/iwdspell/pro/dtkicebr.pro~
 ADD_PROJECTILE ~ee_cosmetic_enhancements/iwdspell/pro/dtkrdsli.pro~
 ADD_PROJECTILE ~ee_cosmetic_enhancements/iwdspell/pro/dtkd3sli.pro~
 ADD_PROJECTILE ~ee_cosmetic_enhancements/iwdspell/pro/dtkd4sli.pro~
+COPY_EXISTING ~iceglyp.pro~ ~override~	//symbol-type spells
+	WRITE_SHORT 0x100 (BIT3 + BIT5 + BIT7 + BIT8 + BIT9)
 ///////////////////////////////////////////////////////////
 //adding resources for creature animtions if not present///
 ///////////////////////////////////////////////////////////
@@ -4170,7 +4172,7 @@ COPY_EXISTING_REGEXP GLOB ~^.+\.spl$~ ~override~
 		READ_SHORT 0x98 ~proj~
 		READ_SHORT 0x1c spell_type
 		  PATCH_IF ((name = 12052) OR (name = 25940)) BEGIN	//magic missile
-		  LPF ALTER_EFFECT INT_VAR silent = 1 check_headers = 1 match_type = 1 match_opcode = 141 opcode = 215 STR_VAR resource = dtkmagh2 END // change existing lightning effect to new visual
+		  LPF ALTER_EFFECT INT_VAR silent = 1 check_headers = 1 match_type = 1 match_opcode = 141 opcode = 215 parameter2 = 0 STR_VAR resource = dtkmagh2 END // change existing lightning effect to new visual
 		  END
 			PATCH_IF ((name = 12072) OR (name = 26426)) BEGIN		//skull trap
 			LPF ALTER_EFFECT INT_VAR silent = 1 check_headers = 1 match_type = 1 match_opcode = 141 opcode = 215 timing = 0 duration = 2 STR_VAR resource = dtknechh END // modify hit visual for skull trap spells
@@ -5315,6 +5317,9 @@ COPY_EXISTING ~spdn01a.spl~ ~override~	//absorb health
 /////////////////////////////////////////////////////
 
 ////////////wands//////////////
+COPY_EXISTING ~wand12_.itm~ ~override~  //Wand of Magic Missiles
+	LPF ALTER_EFFECT INT_VAR silent = 1 check_headers = 1 match_type = 1 match_opcode = 141 opcode = 215 parameter2 = 0 STR_VAR resource = dtkinvoh END
+		BUT_ONLY IF_EXISTS
 
 COPY_EXISTING ~wand03.itm~ ~override~  //Wand of Magic Missiles
 	LPF ALTER_EFFECT INT_VAR silent = 1 check_headers = 1 match_type = 1 match_opcode = 141 opcode = 215 parameter2 = 0 STR_VAR resource = dtkinvoh END
