@@ -54,35 +54,34 @@
 /////                                                  \\\\\
 /////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
 /////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
-@2000 = ~During the time of troubles, when the gods walked amongst mortals, many of them sought, by any means necessary, to protect themselves and prevent their deaths at any cost.  Bhaal was no exception.  Bhaal conscripted many dark elven and dueregar smiths to forge this blade for him, granting it a portion of his godly essence to empower it.  Not only does it burn enemies with hellfire upon each strike, the intensity of the heat can stun foes for a period of time, allowing the weilder to eviscerate their foes, piece by piece.  How Bhaal lost this blade, or how it came into your possession is a mystery for the ages, but your enemies would do well to give you a wide berth when faced with this sword, lest they end up as another of the number of souls whom have fallen beneath this fell blade.
+@2000 = ~Во времена смуты, когда боги ходили среди смертных, многие из них стремились любыми необходимыми средствами защитить себя и предотвратить собственную смерть любой ценой. Баал не был исключением. Баал призвал многих кузнецов - дроу и дуэргаров, чтобы они выковали для него этот клинок, наделив его частью своей божественной сущности, чтобы придать ему силу. Он не только сжигает врагов адским огнем при каждом ударе, но и может оглушить противника на некоторое время, позволяя владельцу выпотрошить нерадивых оппонентов по частям. Как Баал потерял этот клинок, или как он попал к вам в руки, навсегда останется загадкой, но вашим врагам не мешало бы держаться от этого меча подальше, иначе они окажутся еще одной из тех душ, которые пали под смертоносным клинком.
 
-STATISTICS:
+ПАРАМЕТРЫ:
 
-Combat abilities:
-– 15% chance target is stunned for 2 rounds
+Боевые особенности:
+• с вероятностью 15% оглушает цель на 2 раунда.
 
 THAC0: +3
-Damage: 1d8+3, +2d4 fire
-Damage Type: Slashing
-Speed Factor: 4
-Proficiency Type: Long Sword
-Type: One-handed
-Requires:
- 6 Strength
+Урон: 1d8+3 (рубящий), +2d4 (огненный)
+Фактор скорости: 4
+Оружейный навык: длинный меч
+Тип: одноручное
+Требуется:
+ Сила 6
 
-Weight: 4~
-@2001 = ~Much more than just an average bullet, these perfectly rounded and balanced stones have been enhanced with fire magics, making them the perfect companion for troll hunting and keeping oneself warm in the frozen north. 
+Вес: 4~
+@2001 = ~Гораздо больше, чем просто снаряды, эти идеально округлые и сбалансированные камни были усилены магией огня, что делает их идеальным приспособлением для охоты на троллей и согревания на промерзшем севере.
 
-STATISTICS:
+ПАРАМЕТРЫ:
 
-Combat abilities:
-– 50% chance of 2d6 fire damage (Save vs. Spell negates)
+Боевые особенности:
+• с вероятностью 50% наносит дополнительно 2d6 урона огнём (спасбросок против заклинаний отменяет).
 
 THAC0: +2
-Damage: 1d4+2 (missile)
-Launcher: Sling
+Урон: 1d4+2 (метательный)
+Оружие: праща
 
-Weight: 0~
+Вес: 0~
 /////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\////////////////////
 /////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\////////////////////
 /////                                                  					   \\\\\
@@ -90,378 +89,380 @@ Weight: 0~
 /////                                                  					   \\\\\
 /////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\////////////////////
 /////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\////////////////////
-@3000 = ~Cause Serious Wounds
-(Necromancy)
-
-Level: 4
-Sphere: Healing
-Range: Touch
-Duration: Instant
-Casting Time: 5
-Area of Effect: 1 creature
-Saving Throw: 1/2
-
-By casting this spell and touching a creature, the priest deals 17 points of damage (save vs. Spell for half) to the creature's body. This spell has no effect on undead, constructs, or extraplanar creatures. It cannot be cast by good-aligned characters.~
-@3001 = ~Cause Critical Wounds
-(Necromancy)
-
-Level: 5
-Sphere: Healing
-Range: Touch
-Duration: Instant
-Casting Time: 8
-Area of Effect: 1 creature
-Saving Throw: 1/2
-
-By casting this spell and touching a creature, the priest deals 27 points of magic damage (save vs. Spell for half) to the creature's body. This spell has no effect on undead, constructs, or extraplanar creatures. It can be cast only by evil-aligned characters.~
-@3002 = ~Harm
-(Necromancy)
-
-Level: 6
-Sphere: Healing
-Range: Touch
-Duration: Instant
-Casting Time: 9
-Area of Effect: 1 creature
-Saving Throw: Neg.
-
-When this spell is cast, the caster gains the ability to touch a target and inflict tremendous damage, reducing the target to all but 1d4 Hit Points. A Save vs. Spell negates the effect. This spell has no effect on undead, constructs, or extraplanar creatures. It can only be cast by evil-aligned characters.~
-@3003 = ~Insect Plague
-(Conjuration/Summoning)
-
-Level: 5
-Sphere: Combat
-Range: Visual range of the caster
-Duration: 15 rounds
-Casting Time: 9
-Area of Effect: 14-ft. radius
-Saving Throw: None
-
-This spell summons a swarm of creeping, hopping, and flying insects. Creatures within the swarm suffer 1 Hit Point of piercing damage every round and a 100% chance of spell failure. Additionally, creatures with 2 or fewer Hit Dice will immediately panic, while creatures with 3 to 5 Hit Dice must save vs. Spell to avoid the same fate.
-
-Undead, constructs, and elementals are unaffected by the swarm.~
-@3004 = ~False Dawn
-(Evocation)
-
-Level: 6
-Sphere: Sun
-Range: 0
-Duration: Instant
-Casting Time: 9
-Area of Effect: 15-ft. radius
-Saving Throw: None
-
-False Dawn calls into existence a bright reddish light, as if a sunrise were occurring, within the area of effect. All undead creatures within the area suffer 6d6 points of fire damage and are blinded on the round after the false dawn appears. There is no Saving Throw.~
-@3005 = ~Sol's Searing Orb
-(Invocation)
-
-Level: 6
-Sphere: Sun
-Range: Visual range of the caster
-Duration: Instant
-Casting Time: 6
-Area of Effect: 1 creature
-Saving Throw: Special
-
-This spell allows the caster to hurl a brilliant, searing flash at a target. When it hits, it explodes in a flash of light, doing 6d12 points of fire damage to the target and blinding <PRO_HIMHER> for 3 rounds if a Save vs. Spell is failed. If the Saving Throw is made, the target only takes half damage and is not blinded. Undead creatures are particularly vulnerable to this spell, taking double damage.~
-@3006 = ~Slay Living
-(Necromancy)
-
-Level: 5
-Sphere: Combat
-Range: Touch
-Duration: Instant
-Casting Time: 9
-Area of Effect: 1 creature
-Saving Throw: Special
-
-This spell forces the target to Save vs. Death or be instantly killed. If the Saving Throw is successful, the target takes 2d8+1 points of magic damage instead. Note that a character struck with a Slay Living spell can still be raised from the dead with a Raise Dead or Resurrection spell. Slay Living cannot be cast by good-aligned characters.~
-@3007 = ~Monster Summoning I
-(Conjuration/Summoning)
-
-Level: 3
-Range: 20 ft.
-Duration: 2 rounds + 1 round/level
-Casting Time: 3
-Area of Effect: Special
-Saving Throw: None
-
-With the casting of this spell the wizard summons 2d3 1st-level monsters. These appear within spell range and can be commanded to attack the caster's opponents until the spell duration expires or the monsters are slain.~
-@3008 = ~Monster Summoning II
-(Conjuration/Summoning)
-
-Level: 4
-Range: 20 ft.
-Duration: 3 rounds + 1 round/level
-Casting Time: 4
-Area of Effect: Special
-Saving Throw: None
-
-With the casting of this spell the wizard summons 1d6 2nd-level monsters. These appear within spell range and can be commanded to attack the caster's opponents until the spell duration expires or the monsters are slain.~
-@3009 = ~Monster Summoning III
-(Conjuration/Summoning)
-
-Level: 5
-Range: 20 ft.
-Duration: 4 rounds + 1 round/level
-Casting Time: 5
-Area of Effect: Special
-Saving Throw: None
-
-With the casting of this spell the wizard summons 1d4 3rd-level monsters. These appear within spell range and can be commanded to attack the caster's opponents until the spell duration expires or the monsters are slain.~
-@3010 = ~Animal Summoning I
-(Conjuration/Summoning)
-
-Level: 4
-Sphere: Animal, Summoning
-Range: Visual range of the caster
-Duration: 1 hour
-Casting Time: 7
-Area of Effect: Special
-Saving Throw: None
-
-This spell summons up to 6 animals of 4 or fewer Hit Dice. It can be cast indoors or outdoors, and the types of animals summoned depend on the caster's surroundings when the spell is cast.~
-@3011 = ~Animal Summoning II
-(Conjuration/Summoning)
-
-Level: 5
-Sphere: Animal, Summoning
-Range: Visual range of the caster
-Duration: 1 hour
-Casting Time: 8
-Area of Effect: Special
-Saving Throw: None
-
-By means of this spell, the caster summons up to 6 animals that have 8 or fewer Hit Dice. Only normal or giant animals can be summoned; fantastic animals or monsters cannot be summoned by this spell (i.e. no dragons or elementals). This spell works indoors and outdoors.~
-@3012 = ~Animal Summoning III
-(Conjuration/Summoning)
-
-Level: 6
-Sphere: Animal, Summoning
-Range: Visual range of the caster
-Duration: 1 hour
-Casting Time: 9
-Area of Effect: Special
-Saving Throw: None
-
-A more powerful version of Animal Summoning II, Animal Summoning III allows the caster to call up to 4 animals of 16 or fewer Hit Dice. Only normal or giant animals can be summoned; fantastic animals or monsters cannot be summoned by this spell (i.e. no dragons or elementals). This spell can be cast indoors or outdoors.~
-@3013 = ~Animate Dead
-(Necromancy)
-
-Level: 3
-Sphere: Necromantic
-Range: Visual range of the caster
-Duration: 8 hours
-Casting Time: 9
-Area of Effect: Special
-Saving Throw: None
-
-This spell creates undead monsters, skeletons, or zombies, usually from the bones or bodies of dead humans, demihumans, or humanoids. The spell causes these remains to become animated and obey the simple verbal commands of the caster. The undead remain animated until they are destroyed in combat or are turned; they cannot be dispelled. The caster can animate skeletons, zombies or undead monsters in this manner.
-
-  1st – 6th: 1d6 of skeleton fighters, skeleton archers, tattered skeletons, zombies, or blood slimes.
-  7th – 10th: 1d5 of armored skeletons, ghouls, ghasts, wights, bonebats, ju-ju zombies, mummies, imbued wights, or crypt slimes.
-  11th – 14th: 1d4 of skeletal warriors, skeletal archers, skeletal mages, poison zombies, greater ghouls, slime zombies, wraith spiders, greater mummies, ghoul sludges, or vampiric wolves.
-  15th and up: 1d3 of fell skeletons, cold wights, barrow wights, fell ghasts, greater skeletal mages, greater wraith spiders, serrated skeletons, sarcophagus slimes, or vampiric mists.~
-@3014 = ~Conjure Fire Elemental
-(Conjuration/Summoning)
-
-Level: 6
-Sphere: Elemental (Fire), Summoning
-Range: Visual range of the caster
-Duration: 1 turn/level
-Casting Time: 9
-Area of Effect: Special
-Saving Throw: None
-
-Upon casting a Conjure Fire Elemental spell, the caster opens a special gate to the Elemental Plane of Fire, and a fire elemental is summoned in the vicinity of the caster. There is a 60% chance that a 12-Hit-Dice elemental appears; a 35% chance that a 16-Hit-Dice elemental appears; and a 5% chance that a 24-Hit-Dice elemental appears. The elemental will do the bidding of the caster until it is slain or the duration of the spell runs out. All the commands given to the elemental are done telepathically, so there is no time lost due to miscommunication and no need to know the language of the summoned creature.~
-@3015 = ~Conjure Earth Elemental 
-(Conjuration/Summoning)
-
-Level: 6
-Sphere: Elemental (Earth), Summoning
-Range: Visual range of the caster
-Duration: 1 turn/level
-Casting Time: 9
-Area of Effect: Special
-Saving Throw: None
-
-Upon casting a Conjure Earth Elemental spell, the caster opens a special gate to the Elemental Plane of Earth, and an earth elemental is summoned in the vicinity of the caster. There is a 60% chance that a 12-Hit-Dice elemental appears, a 35% chance that a 16-Hit-Dice elemental appears, and a 5% chance that a 24-Hit-Dice elemental appears. All of the commands given to the elemental are done telepathically, so there is no time lost due to miscommunication, and it is not necessary to know the language of the summoned creature.~
-@3016 = ~Conjure Earth Elemental 
-(Conjuration/Summoning)
-
-Level: 7
-Sphere: Elemental (Earth), Summoning
-Range: Visual range of the caster
-Duration: 1 turn/level
-Casting Time: 9
-Area of Effect: Special
-Saving Throw: None
-
-Upon casting a Conjure Earth Elemental spell, the caster opens a special gate to the Elemental Plane of Earth, and an earth elemental is summoned in the vicinity of the caster. There is a 60% chance that a 12-Hit-Dice elemental appears, a 35% chance that a 16-Hit-Dice elemental appears, and a 5% chance that a 24-Hit-Dice elemental appears. All of the commands given to the elemental are done telepathically, so there is no time lost due to miscommunication, and it is not necessary to know the language of the summoned creature.~
-@3017 = ~Conjure Air Elemental 
-(Conjuration/Summoning)
-
-Level: 6
-Sphere: Elemental (Air), Summoning
-Range: Visual range of the caster
-Duration: 1 turn/level
-Casting Time: 9
-Area of Effect: Special
-Saving Throw: None
-
-Upon casting a Conjure Air Elemental spell, the caster opens a special gate to the Elemental Plane of Air, and an air elemental is summoned in the vicinity of the caster. There is a 60% chance that a 12-Hit-Dice elemental appears, a 35% chance that a 16-Hit-Dice elemental appears, and a 5% chance that a 24-Hit-Dice elemental appears. All of the commands given to the elemental are done telepathically, so there is no time lost due to miscommunication, and it is not necessary to know the language of the summoned creature.~
-@3018 = ~Conjure Lesser Air Elemental
-(Conjuration/Summoning)
-
-Level: 5
-Range: 45 ft.
-Duration: 1 turn + 1 round/level
-Casting Time: 9
-Area of Effect: Special
-Saving Throw: None
-
-A wizard who casts a Conjure Lesser Air Elemental spell summons an air elemental to do <PRO_HISHER> bidding. The elemental has 8 Hit Dice and will serve the caster's every whim until banished back to its home plane, the spell's duration expires, or the elemental dies.~
-@3019 = ~Conjure Lesser Earth Elemental
-(Conjuration/Summoning)
-
-Level: 5
-Range: 45 ft.
-Duration: 1 turn + 1 round/level
-Casting Time: 9
-Area of Effect: Special
-Saving Throw: None
-
-A wizard who casts a Conjure Lesser Earth Elemental spell summons an air elemental to do <PRO_HISHER> bidding. The elemental has 8 Hit Dice and will serve the caster's every whim until banished back to its home plane, the spell's duration expires, or the elemental dies.~
-@3020 = ~Conjure Lesser Fire Elemental
-(Conjuration/Summoning)
-
-Level: 5
-Range: 45 ft.
-Duration: 1 turn + 1 round/level
-Casting Time: 9
-Area of Effect: Special
-Saving Throw: None
-
-A wizard who casts a Conjure Lesser Fire Elemental spell summons a fire elemental to do <PRO_HISHER> bidding. The elemental has 8 Hit Dice and will serve the caster's every whim until banished back to its home plane, the spell's duration expires, or the elemental dies.~
-@3021 = ~Goodberry
-(Alteration, Evocation)
-
-Level: 2
-Sphere: Plant
-Range: 0
-Duration: 3 days
-Casting Time: 9
-Area of Effect: 5 berries
-Saving Throw: None
-
-Casting a Goodberry spell creates a clump of magical berries that the caster can carry with <PRO_HIMHER>. These berries cure 5 points of damage when eaten. The berries will only last three days, so it's not advisable to carry them around for too long.~
-@3022 = ~Summon Insects
-(Conjuration/Summoning)
-
-Level: 3
-Sphere: Animal
-Range: 60 ft.
-Duration: 7 rounds
-Casting Time: 9
-Area of Effect: 1 creature
-Saving Throw: Neg.
-
-The Summon Insects spell attracts a cloud or swarm of normal insects to attack one enemy of the caster. This swarm gathers at a point chosen by the caster within the spell's range and attacks any single creature the caster points to. A successful Save vs. Breath Weapon with a -4 penalty negates the effects; otherwise, the victim takes 1 point of damage every 2 seconds for the duration of the spell. Moreover, the victim fights with a -2 penalty to <PRO_HISHER> attack roll and a -2 penalty to <PRO_HISHER> Armor Class. The swarm will repeatedly bite the target, making it very difficult to cast spells (50% chance of spell failure).
-
-Undead, constructs, and elementals are unaffected by the swarm.~
-@3023 = ~Call Woodland Beings
-(Conjuration/Summoning)
-
-Level: 4
-Sphere: Animal, Summoning
-Range: 25 ft.
-Duration: 3 turns
-Casting Time: 7
-Area of Effect: Special
-Saving Throw: None
-
-This spell summons forth a nymph to assist the party. The nymph has several priest spells at her disposal and will use them in the best interests of the party (these include Mental Domination, Confusion, and Mass Cure). She will remain under the caster's control until slain or the spell's duration expires.~
-@3024 = ~Conjure Animals
-(Conjuration/Summoning)
-
-Level: 6
-Sphere: Summoning
-Range: 30 ft.
-Duration: 4 turns
-Casting Time: 9
-Area of Effect: Special
-Saving Throw: None
-
-This spell allows the caster to summon forth and control 2 massive polar bears. These 9-HD bears will respond to the caster's every whim for the duration of the spell.~
-@3025 = ~Aerial Servant
-(Conjuration/Summoning)
-
-Level: 6
-Sphere: Summoning
-Range: 20 ft.
-Duration: 1 turn/level
-Casting Time: 9
-Area of Effect: Special
-Saving Throw: None
-
-This spell summons an aerial servant to do the caster's bidding. The servant will attack any enemies that the caster decides, staying until the duration of the spell expires or it is slain.~
-@3026 = ~Gate
-(Conjuration/Summoning)
-
-Level: 7
-Sphere: Summoning
-Range: 30 ft.
-Duration: 33 rounds
-Casting Time: 5
-Area of Effect: Special
-Saving Throw: None
-
-By means of this spell, the caster calls an outer-planar creature, the pit fiend, to attack <PRO_HISHER> foes—as well as <PRO_HIMHER>self if <PRO_HESHE>'s not careful. The caster must use a Protection From Evil spell on <PRO_HIMHER>self (and comrades) to keep the devil from noticing <PRO_HIMHER>. If the caster fails to protect <PRO_HIMHER>self in this manner, the pit fiend will tear the caster and <PRO_HISHER> companions apart piece by piece, then feast on the remains. Gate can only be cast by evil-aligned characters.~
-@3027 = ~Creeping Doom
-(Conjuration/Summoning)
-
-Level: 7
-Sphere: Animal, Summoning
-Range: Visual range of the caster
-Duration: 1 turn
-Casting Time: 9
-Area of Effect: Special
-Saving Throw: None
-
-Creeping Doom summons masses of insects that will promptly spread out and attack the caster's enemies. The swarms are composed of various beetles, spiders, and other creatures, each of which will sting once and die—as a result, the swarm will generally kill any creature not immune to normal attacks before the swarm is destroyed.~
-@3028 = ~Elemental Summoning
-
-Level: Quest
-Range: 30 ft.
-Duration: 1 turn
-Casting Time: 9
-Area of Effect: Special
-Saving Throw: None
-
-Drawing power from the environment, this spell summons 2 16-HD elementals randomly chosen from earth, air, water, or fire. The elementals stay for 1 turn and will obey the caster as long as they remain summoned. There is a 10% chance that a randomly chosen Elemental Prince will be summoned instead. The Elemental Princes rule over other elementals in their respective planes. The Elemental Prince of Air is Chan, the Elemental Prince of Earth is Sunnis, the Elemental Prince of Water is Ben-Hadar and the Elemental Prince of Fire is Zaaman Rul.~
-@3029 = ~Greater Elemental Summoning
-
-Level: Quest
-Range: 30 ft.
-Duration: 1 turn
-Casting Time: 9
-Area of Effect: Special
-Saving Throw: None
-
-Druids, having a more powerful link to the elements, can cast a stronger version of Elemental Summoning. This spell can summon the Elemental Princes themselves, randomly chosen from earth, air, water or fire. The Elemental Prince of Air is Chan, the Elemental Prince of Earth is Sunnis, the Elemental Prince of Water is Ben-Hadar, and the Elemental Prince of Fire is Zaaman Rul. The Elemental Princes stay for 1 turn and will obey the caster as long as they remain summoned.
-
-Requires: Elemental Summoning~
-@3030 = ~Enchanted Weapon
-(Enchantment/Charm)
-
-Level: 4
-Range: 0
-Duration: 24 hours
-Casting Time: 4
-Area of Effect: Special
-Saving Throw: None
-
-This spell conjures forth a +3 enchanted weapon that may be used by anyone. The weapon may be either a mace, axe, long sword, or short sword. The weapon stays in existence for 24 hours.~
+@3000 = ~Нанести серьёзные раны
+(Некромантия)
+
+Уровень: 4
+Сфера: Лечение
+Расстояние: прикосновение
+Продолжительность: мгновенно
+Время чтения: 5
+Область охвата: 1 существо
+Спасбросок: 1/2
+
+Прочитав заклинание и дотронувшись до существа, жрец наносит ему 17 пунктов урона (при успешном спасброске вдвое меньше). Это заклинание не действует на нежить, механизмы и создания с других планов. Оно недоступно добрым персонажам.~
+@3001 = ~Нанести критические раны
+(Некромантия)
+
+Уровень: 5
+Сфера: Лечение
+Расстояние: прикосновение
+Продолжительность: мгновенно
+Время чтения: 8
+Область охвата: 1 существо
+Спасбросок: 1/2
+
+Прочитав заклинание и дотронувшись до существа, жрец наносит ему 27 пунктов урона (при успешном спасброске вдвое меньше). Это заклинание не действует на нежить, механизмы и создания с других планов. Оно доступно только злым персонажам.~
+@3002 = ~Вред
+(Некромантия)
+
+Уровень: 6
+Сфера: Лечение
+Расстояние: прикосновение
+Продолжительность: мгновенно
+Время чтения: 9
+Область охвата: 1 существо
+Спасбросок: отменяет
+
+Прочитав заклинание и дотронувшись до существа, жрец наносит ему огромный урон, оставляя только 1d4 пунктов здоровья. Успешный спасбросок против заклинания позволяет полностью избежать воздействия. Это заклинание не действует на нежить, механизмы и создания с других планов. Оно доступно только злым персонажам.~
+@3003 = ~Нашествие насекомых
+(Вызывание/призывание)
+
+Уровень: 5
+Сфера: Бой
+Расстояние: обзор заклинателя
+Продолжительность: 15 раундов
+Время чтения: 9
+Область охвата: радиус 14 футов
+Спасбросок: нет
+
+Заклинание призывает множество ползучих, скачущих и летающих насекомых. Все, кто оказался внутри этого роя, получают 1 пункт колющего урона каждый раунд и 100% шанс провала заклинаний. Существа с уровнем здоровья 2 и менее сразу же пытаются убежать от насекомых; всем существам с уровнем здоровья от 3 до 5 необходим успешный спасбросок против заклинания, чтобы остаться в зоне, охваченной роем.
+
+Нежить, механизмы и элементали не подвержены эффектам заклинания.~
+@3004 = ~Ложная заря
+(Воплощение)
+
+Уровень: 6
+Сфера: Солнце
+Расстояние: 0
+Продолжительность: мгновенно
+Время чтения: 9
+Область охвата: радиус 15 футов
+Спасбросок: нет
+
+Ложная заря вызывает яркое красное сияние, как во время восхода солнца. Вся нежить, попадающая в область действия ложной зари, получает 6d6 пунктов урона огнём и на один раунд после начала зари слепнет. Против этого заклинания нет спасброска.~
+@3005 = ~Обжигающий шар Сола
+(Проявление)
+
+Уровень: 6
+Сфера: Солнце
+Расстояние: обзор заклинателя
+Продолжительность: мгновенно
+Время чтения: 6
+Область охвата: 1 существо
+Спасбросок: особый
+
+Заклинатель кидает в жертву ослепительно горящий шар. Попав в цель, он взрывается с яркой вспышкой, нанося 6d12 урона огнём и ослепляя жертву на 3 раунда. Если существо сделает удачный спасбросок против заклинания, оно получит только половинный урон и не будет ослеплено. Нежити это заклинание наносит двойной урон.~
+@3006 = ~Убить живое
+(Некромантия)
+
+Уровень: 5
+Сфера: Бой
+Расстояние: прикосновение
+Продолжительность: мгновенно
+Время чтения: 9
+Область охвата: 1 существо
+Спасбросок: особый
+
+Цель заклинания должна сделать успешный спасбросок против смерти или немедленно погибнуть. При успешном спасброске цель получает 2d8+1 магического урона. Заклинание «Убить живое» не может читать добрый персонаж. Обратите внимание, что жертву этого заклинания можно вернуть к жизни с помощью заклинаний «Оживление» или «Воскрешение».~
+@3007 = ~Призывание монстров I
+(Вызывание/призывание)
+
+Уровень: 3
+Расстояние: 20 футов
+Продолжительность: 2 раунда + 1 раунд/уровень
+Время чтения: 3
+Область охвата: особая
+Спасбросок: нет
+
+Это заклинание призывает 2d3 монстров первого уровня. Они появляются в области охвата заклинания и подчиняются приказам заклинателя, атакуя его врагов. По истечении срока действия заклинания оставшиеся в живых монстры исчезают.~
+@3008 = ~Призывание монстров II
+(Вызывание/призывание)
+
+Уровень: 4
+Расстояние: 20 футов
+Продолжительность: 3 раунда + 1 раунд/уровень
+Время чтения: 4
+Область охвата: особая
+Спасбросок: нет
+
+Это заклинание призывает 1d6 монстров второго уровня. Они появляются в области охвата заклинания и подчиняются приказам заклинателя, атакуя его врагов. По истечении срока действия заклинания оставшиеся в живых монстры исчезают.~
+@3009 = ~Призывание монстров III
+(Вызывание/призывание)
+
+Уровень: 5
+Расстояние: 20 футов
+Продолжительность: 4 раунда + 1 раунд/уровень
+Время чтения: 5
+Область охвата: особая
+Спасбросок: нет
+
+Это заклинание призывает 1d4 монстров третьего уровня. Они появляются в области охвата заклинания и подчиняются приказам заклинателя, атакуя его врагов. По истечении срока действия заклинания оставшиеся в живых монстры исчезают.~
+@3010 = ~Призывание животных I
+(Вызывание, Призывание)
+
+Уровень: 4
+Сфера: Животные, Призывание
+Расстояние: обзор заклинателя
+Продолжительность: 1 час
+Время чтения: 7
+Область охвата: особая
+Спасбросок: нет
+
+Заклинание призывает до шести животных с уровнем здоровья не выше 4. Его можно читать и в помещении, и снаружи, при этом разновидность появляющихся животных зависит от окружающей среды.~
+@3011 = ~Призывание животных II
+(Вызывание/призывание)
+
+Уровень: 5
+Сфера: Животные, Призывание
+Расстояние: обзор заклинателя
+Продолжительность: 1 час
+Время чтения: 8
+Область охвата: особая
+Спасбросок: нет
+
+Заклинание призывает до шести животных с уровнем здоровья не выше 8. Это будут обыкновенные животные или их гигантские разновидности; фантастических животных или монстров призвать не получится (никаких драконов и элементалей). Заклинание можно читать и в помещении, и снаружи.~
+@3012 = ~Призывание животных III
+(Вызывание/призывание)
+
+Уровень: 6
+Сфера: Животные, Призывание
+Расстояние: обзор заклинателя
+Продолжительность: 1 час
+Время чтения: 9
+Область охвата: особая
+Спасбросок: нет
+
+Это усиленный вариант заклинания «Призывание животных II». Призывает до четырёх животных с уровнем здоровья не выше 16. Это будут обыкновенные животные или их гигантские разновидности; фантастических животных или монстров призвать не получится (никаких драконов и элементалей). Заклинание можно читать и в помещении, и снаружи.~
+@3013 = ~Создать нежить
+(Некромантия)
+
+Уровень: 3
+Сфера: Некромантия
+Расстояние: 30 футов
+Продолжительность: 8 часов
+Время чтения: 9
+Область охвата: особая
+Спасбросок: нет
+
+Заклинание заставляет восстать и служить жрецу одного скелета-воина. Тип скелета-воина зависти от уровня заклинателя:
+
+• от 1-го до 6-го: Скелет-воин 3-го уровня здоровья с длинным мечом
+• от 7-го до 10-го: Скелет-воин 5-го уровня здоровья с длинным мечом +1
+• от 11-го до 14-го: Скелет-воин 7-го уровня здоровья с полуторным мечом +1
+• 15-й и выше: Скелет-воин 9-го уровня здоровья с двуручным мечом +1
+
+Скелет-воин может следовать за заклинателем, оставаться в каком-либо месте и атаковать любого, кто туда войдёт и т. д. Скелет служит жрецу, пока не будет убит в бою, не истечёт 8 часов или он не будет изгнан. Заклинание не может быть развеяно.~
+@3014 = ~Призвать огненного элементаля
+(Вызывание/призывание)
+
+Уровень: 6
+Сфера: Призывание, Стихия Огня
+Расстояние: обзор заклинателя
+Продолжительность: 1 ход/уровень
+Время чтения: 9
+Область охвата: особая
+Спасбросок: нет
+
+Заклинатель открывает особые врата на стихийный план Огня и призывает огненного элементаля. С вероятностью 60% это будет элементаль 12-го уровня здоровья, 35% — 16-го уровня и 5% — 24 уровня. Элементаль подчиняется телепатическим приказам заклинателя, поэтому нет проблем с непониманием и не нужно знать язык существа. Если к концу срока действия заклинания элементаль остался жив, он вернётся на свой родной план.~
+@3015 = ~Призвать земляного элементаля
+(Вызывание/призывание)
+
+Уровень: 6
+Сфера: Призывание, Стихия Земли
+Расстояние: обзор заклинателя
+Продолжительность: 1 ход/уровень
+Время чтения: 9
+Область охвата: особая
+Спасбросок: нет
+
+Заклинатель открывает особые врата на стихийный план Земли и призывает земляного элементаля. С вероятностью 65% это будет элементаль 12-го уровня здоровья, 35% — 16-го уровня и 5% — 24 уровня. Элементаль подчиняется телепатическим приказам заклинателя, поэтому нет проблем с непониманием и не нужно знать язык существа. Если к концу срока действия заклинания элементаль остался жив, он вернётся на свой родной план.~
+@3016 = ~Призвать земляного элементаля
+(Вызывание/призывание)
+
+Уровень: 7
+Сфера: Призывание, Стихия Земли
+Расстояние: обзор заклинателя
+Продолжительность: 1 ход/уровень
+Время чтения: 9
+Область охвата: особая
+Спасбросок: нет
+
+Заклинатель открывает особые врата на стихийный план Земли и призывает земляного элементаля. С вероятностью 65% это будет элементаль 12-го уровня здоровья, 35% — 16-го уровня и 5% — 24 уровня. Элементаль подчиняется телепатическим приказам заклинателя, поэтому нет проблем с непониманием и не нужно знать язык существа. Если к концу срока действия заклинания элементаль остался жив, он вернётся на свой родной план.~
+@3017 = ~Призвать воздушного элементаля
+(Вызывание/призывание)
+
+Уровень: 6
+Сфера: Призывание, Стихия Воздуха
+Расстояние: обзор заклинателя
+Продолжительность: 1 ход/уровень
+Время чтения: 9
+Область охвата: особая
+Спасбросок: нет
+
+Заклинатель открывает особые врата на стихийный план Воздуха и призывает воздушного элементаля. С вероятностью 65% это будет элементаль 12-го уровня здоровья, 35% — 16-го уровня и 5% — 24 уровня. Элементаль подчиняется телепатическим приказам заклинателя, поэтому нет проблем с непониманием и не нужно знать язык существа. Если к концу срока действия заклинания элементаль остался жив, он вернётся на свой родной план.~
+@3018 = ~Призвать малого воздушного элементаля
+(Вызывание/призывание)
+
+Уровень: 5
+Расстояние: 45 футов
+Продолжительность: 1 ход + 1 раунд/уровень
+Время чтения: 9
+Область охвата: особая
+Спасбросок: нет
+
+Малый воздушный элементаль 8 уровня здоровья является на помощь к заклинателю. В продолжение срока действия заклинания он выполняет все приказы того, кто призвал его, пока не будет изгнан на родной план или убит.~
+@3019 = ~Призвать малого земляного элементаля
+(Вызывание/призывание)
+
+Уровень: 5
+Расстояние: 45 футов
+Продолжительность: 1 ход + 1 раунд/уровень
+Время чтения: 9
+Область охвата: особая
+Спасбросок: нет
+
+Малый воздушный элементаль 8 уровня здоровья является на помощь к заклинателю. В продолжение срока действия заклинания он выполняет все приказы того, кто призвал его, пока не будет изгнан на родной план или убит.~
+@3020 = ~Призвать малого огненного элементаля
+(Вызывание/призывание)
+
+Уровень: 5
+Расстояние: 45 футов
+Продолжительность: 1 ход + 1 раунд/уровень
+Время чтения: 9
+Область охвата: особая
+Спасбросок: нет
+
+Малый воздушный элементаль 8 уровня здоровья является на помощь к заклинателю. В продолжение срока действия заклинания он выполняет все приказы того, кто призвал его, пока не будет изгнан на родной план или убит.~
+@3021 = ~Ягода жизни
+(Изменение, Воплощение)
+
+Уровень: 2
+Сфера: Растения
+Расстояние: 0
+Продолжительность: 3 дня
+Время чтения: 9
+Область охвата: 5 ягод
+Спасбросок: нет
+
+Заклинание создаёт горсть волшебных ягод, которые заклинатель может носить с собой, но не слишком долго — ягоды существуют всего трое суток. При съедании ягоды восстанавливают 5 пунктов здоровья.~
+@3022 = ~Призвать насекомых
+(Вызывание/призывание)
+
+Уровень: 3
+Сфера: Животные
+Расстояние: 60 футов
+Продолжительность: 7 раундов
+Время чтения: 9
+Область охвата: 1 существо
+Спасбросок: отменяет
+
+Заклинание призывает рой обычных насекомых для нападения на одного врага заклинателя. Рой собирается в точке, указанной заклинателем в пределах дальности действия заклинания и атакует указанного врага. Успешный спасбросок против оружия дыхания со штрафом -4 позволяет избежать роя. В противном случае жертва получает 1 пункт урона за каждые 2 секунды длительности заклинания. Более того, жертва получает штраф в -2 к броскам атаки и к классу защиты. Рой регулярно кусает жертву, затрудняя чтение заклинаний (вероятность провала заклинаний 50%).
+
+Нежить, механизмы и элементали не подвержены влиянию роя.~
+@3023 = ~Призвать тварей леса
+(Вызывание/призывание)
+
+Уровень: 4
+Сфера: Животные, Призывание
+Расстояние: 25 футов
+Продолжительность: 3 хода
+Время чтения: 7
+Область охвата: особая
+Спасбросок: нет
+
+Это заклинание вызывает на помощь отряду нимфу. Нимфа имеет в своём распоряжении некоторые заклинания жреца и может использовать их в интересах отряда (сюда входят «Ментальное подчинение», «Замешательство» и «Общее исцеление»). Она остаётся под контролем заклинателя пока не будет убита или пока не истечёт время действия заклинания.~
+@3024 = ~Вызов животных
+(Вызывание/призывание)
+
+Уровень: 6
+Сфера: Призывание
+Расстояние: 30 футов
+Продолжительность: 4 хода
+Время чтения: 9
+Область охвата: особая
+Спасбросок: нет
+
+Это заклинание позволяет призвать и контролировать двух крупных полярных медведей 9-го уровня здоровья. Медведи будут исполнять все прихоти заклинателя в течение срока действия заклинания.~
+@3025 = ~Воздушный слуга
+(Вызывание/призывание)
+
+Уровень: 6
+Сфера: Призывание
+Расстояние: 20 футов
+Продолжительность: 1 ход/уровень
+Время чтения: 9
+Область охвата: особая
+Спасбросок: нет
+
+Этим заклинанием маг вызывает воздушного слугу, который выполняет его приказы до истечения срока заклинания. Слуга будет атаковать всех врагов, на которых укажет заклинатель до тех пор, пока не будет убит или не истечёт срок действия заклинания.~
+@3026 = ~Врата
+(Вызывание/призывание)
+
+Уровень: 7
+Сфера: Призывание
+Расстояние: 30 футов
+Продолжительность: 33 раунда
+Время чтения: 5
+Область охвата: особая
+Спасбросок: нет
+
+Это заклинание призывает существо с внешних планов, которое атакует врагов, и самого заклинателя, если он не будет осторожен. Существо, которое вызывается, это Исчадие Ямы, один из самых мощных дьяволов. Он будет нападать на всех, не защищённых заклинанием защиты от зла. Если заклинатель не защитит себя, исчадие ямы разорвёт его и его компаньонов на куски и полакомится останками. Доступно только злым персонажам.~
+@3027 = ~Ползучий рок
+(Вызывание/призывание)
+
+Уровень: 7
+Сфера: Животные, Призывание
+Расстояние: обзор заклинателя
+Продолжительность: 1 ход
+Время чтения: 9
+Область охвата: особая
+Спасбросок: нет
+
+Заклинание вызывает массу насекомых, которые тут же расползаются и нападают на противников заклинателя. Рой состоит из разнообразных жуков, пауков и других насекомых; они умирают, один раз укусив врага. В итоге рой обычно убивает любое существо, на которое действуют обычные атаки.~
+@3028 = ~Призвать элементаля
+
+Уровень: Квест
+Расстояние: 30 футов
+Продолжительность: 1 ход
+Время чтения: 9
+Область охвата: особая
+Спасбросок: нет
+
+Черпая силы из окружающей среды, это заклинание призывает двух элементалей с 16 уровнем здоровья, случайным образом выбираемых из стихий земли, воздуха или огня. Элементали остаются на 1 ход и в течение всего этого времени подчиняются заклинателю. С вероятностью 10% будет призван принц элементалей. Принцы элементалей правят другими элементалями в своих родных планах. Принц элементалей воздуха — Чан, принц элементалей земли — Саннис, а принц элементалей огня — Зааман Рул.~
+@3029 = ~Призвать великого элементаля
+
+Уровень: Квест
+Расстояние: 30 футов
+Продолжительность: 1 ход
+Время чтения: 9
+Область охвата: особая
+Спасбросок: нет
+
+Друиды, имеющие более глубокую связь с природой, могут читать усиленную версию призывания элементаля. Это заклинание может призывать самих Принцев Элементалей, выбранных случайно из стихий земли, воздуха или огня. Принц Элементалей Воздуха — Чан, Принц Элементалей Земли — Саннис, а Принц Элементалей Огня — Зааман Рул. Принц Элементалей остаётся на 1 ход и всё это время будет подчиняться заклинателю.
+
+Требуется: Призвать элементаля~
+@3030 = ~Зачарованное оружие
+(Зачарование/очарование)
+
+Уровень: 4
+Расстояние: 0
+Продолжительность: 24 часа
+Время чтения: 4
+Область охвата: особая
+Спасбросок: нет
+
+Будучи прочитанным на существо, заклинание зачаровывает оружие в его руках. На время действия заклинания оружие считается зачарованым до +3 при определении, по кому оно может попасть.~
 
 /////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\////////////////////
 /////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\////////////////////
@@ -470,15 +471,15 @@ This spell conjures forth a +3 enchanted weapon that may be used by anyone. The 
 /////                                                  					   \\\\\
 /////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\////////////////////
 /////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\////////////////////
-@4000 = ~Blinded~
-@4001 = ~Freezing Touch~
-@4002 = ~Stunned~
-@4003 = ~Poisoned~
-@4004 = ~Held~
-@4005 = ~Gulp!~
-@4006 = ~Ice Storm~
-@4007 = ~You cannot cast this spell until the current casting has run out.~
-@4008 = ~Bleeding~
+@4000 = ~Слепота~
+@4001 = ~Ледяное касание~
+@4002 = ~Ошеломление~
+@4003 = ~Отравление~
+@4004 = ~Удержание~
+@4005 = ~Глоток!~
+@4006 = ~Ледяной шторм~
+@4007 = ~Вы не можете прочесть это заклинание, пока не закончится действие предыдущего.~
+@4008 = ~Кровотечение~
 /////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\////////////////////
 /////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\////////////////////
 /////                                                  					   \\\\\
@@ -486,95 +487,95 @@ This spell conjures forth a +3 enchanted weapon that may be used by anyone. The 
 /////                                                  					   \\\\\
 /////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\////////////////////
 /////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\////////////////////
-@5000 = ~Fire Beetle~
-@5001 = ~Goblin~
-@5002 = ~Bombardier Beetle~
-@5003 = ~Goblin Elite~
-@5004 = ~Lizard Man~
-@5005 = ~Boring Beetle~
-@5006 = ~Ghoul~
-@5007 = ~Huge Spider~
-@5008 = ~Neo-Orog Avenger~
-@5009 = ~Tough Lizard Man~
-@5010 = ~Black Bear~
-@5011 = ~Wolf~
-@5012 = ~Cave Bear~
-@5013 = ~Dire Wolf~
-@5014 = ~Giant Snake~
-@5015 = ~Jaguar~
-@5016 = ~Wild Boar~
-@5017 = ~Worg~
-@5018 = ~Arctic Boar~
-@5019 = ~Dire Worg~
-@5020 = ~Desert Asp~
-@5021 = ~Goblin Berserker~
-@5022 = ~Goblin Shaman~
-@5023 = ~Goblin Worg Rider~
-@5024 = ~Orc Mage~
-@5025 = ~Half-Ogre~
-@5026 = ~Skeleton~
-@5027 = ~Skeleton Archer~
-@5028 = ~Zombie~
-@5029 = ~Ghast~
-@5030 = ~Ghoul~
-@5031 = ~Armored Skeleton~
-@5032 = ~Wight~
-@5033 = ~Ju-Ju Zombie~
-@5034 = ~Skeletal Mage~
-@5035 = ~Skeletal Warrior~
-@5036 = ~Wraith Spider~
-@5037 = ~Poison Zombie~
-@5038 = ~Greater Ghoul~
-@5039 = ~Cold Wight~
-@5040 = ~Barrow Wight~
-@5041 = ~Drowned Dead~
-@5042 = ~Fell Ghast~
-@5043 = ~Greater Skeletal Mage~
-@5044 = ~Serrated Skeleton~
-@5045 = ~Bonebat~
-@5046 = ~Fell Skeleton~
-@5047 = ~Greater Wraith Spider~
-@5048 = ~Lesser Earth Elemental~
-@5049 = ~Lesser Fire Elemental~
-@5050 = ~Creeping Doom~
-@5051 = ~Ben-Hadar~
-@5052 = ~Water Elemental~
-@5053 = ~Xvart~
-@5054 = ~Xvart Alchemist~
-@5055 = ~Kobold Witch Doctor~
-@5056 = ~Green Slime~
-@5057 = ~Rabid Gibberling~
-@5058 = ~Spider~
-@5059 = ~Slime Zombie~
-@5060 = ~Orc~
-@5061 = ~Orc Archer~
-@5062 = ~Blood Slime~
-@5063 = ~Yuan-Ti Priest~
-@5064 = ~Yuan-Ti~
-@5065 = ~Giant Spider~
-@5066 = ~Ochre Jelly~
-@5067 = ~Elite Orc~
-@5068 = ~Elite Orc Archer~
-@5069 = ~Elite Orc Shaman~
-@5070 = ~Lizard Man Shaman~
-@5071 = ~Bugbear~
-@5072 = ~Bugbear Shaman~
-@5073 = ~Mustard Jelly~
-@5074 = ~Yuan-Ti Elite~
-@5075 = ~Berserk Gibberling~
-@5076 = ~Crypt Jelly~
-@5077 = ~Ghoul Sludge~
-@5078 = ~Sarcophagus Slime~
-@5079 = ~Vampiric Wolf~
-@5080 = ~Vampiric Mist~
-@5081 = ~Tattered Skeleton~
-@5082 = ~Mummy~
-@5083 = ~Greater Mummy~
-@5084 = ~Imbued Wight~
-@5085 = ~Yuan-Ti Halfbreed~
-@5086 = ~Histachii~
-@5087 = ~Leopard~
-@5088 = ~Grizzly Bear~
+@5000 = ~Огненный жук~
+@5001 = ~Гоблин~
+@5002 = ~Жук-бомбардир~
+@5003 = ~Элита гоблинов~
+@5004 = ~Человек-ящер~
+@5005 = ~Жук-точильщик~
+@5006 = ~Упырь~
+@5007 = ~Огромный паук~
+@5008 = ~Нео-орог-мститель~
+@5009 = ~Крепкий человек-ящер~
+@5010 = ~Черный медведь~
+@5011 = ~Волк~
+@5012 = ~Пещерный медведь~
+@5013 = ~Лютый волк~
+@5014 = ~Гигантская змея~
+@5015 = ~Ягуар~
+@5016 = ~Дикий вепрь~
+@5017 = ~Ворг~
+@5018 = ~Северный медведь~
+@5019 = ~Лютый ворг~
+@5020 = ~Пустынная гадюка~
+@5021 = ~Гоблин-берсерк~
+@5022 = ~Гоблин-шаман~
+@5023 = ~Гоблин-наездник~
+@5024 = ~Орк-волшебник~
+@5025 = ~Полуогр~
+@5026 = ~Скелет~
+@5027 = ~Скелет-лучник~
+@5028 = ~Зомби~
+@5029 = ~Вурдалак~
+@5030 = ~Упырь~
+@5031 = ~Бронированный скелет~
+@5032 = ~Пожиратель~
+@5033 = ~Зомби жу-жу~
+@5034 = ~Скелет-маг~
+@5035 = ~Скелет-воин~
+@5036 = ~Паук-фантом~
+@5037 = ~Ядовитый зомби~
+@5038 = ~Большой упырь~
+@5039 = ~Холодный пожиратель~
+@5040 = ~Курганный пожиратель~
+@5041 = ~Утопленник~
+@5042 = ~Большой вурдалак~
+@5043 = ~Скелет-чародей~
+@5044 = ~Зазубренный скелет~
+@5045 = ~Клинковый скелет~
+@5046 = ~Полуразбитый скелет~
+@5047 = ~Большой паук-фантом~
+@5048 = ~Малый земляной элементаль~
+@5049 = ~Малый огненный элементаль~
+@5050 = ~Ползучий рок~
+@5051 = ~Бен-Хадар~
+@5052 = ~Водяной элементаль~
+@5053 = ~Ксварт~
+@5054 = ~Ксварт-алхимик~
+@5055 = ~Кобольд-знахарь~
+@5056 = ~Зелёная слизь~
+@5057 = ~Больной гибберлинг~
+@5058 = ~Паук~
+@5059 = ~Зомби-желе~
+@5060 = ~Орк~
+@5061 = ~Орк-лучник~
+@5062 = ~Кровавая слизь~
+@5063 = ~Жрец юань-ти~
+@5064 = ~Юань-ти~
+@5065 = ~Огромный паук~
+@5066 = ~Охряное желе~
+@5067 = ~Элитный орк~
+@5068 = ~Элитный орк-лучник~
+@5069 = ~Элитный орк-шаман~
+@5070 = ~Шаман людей-ящеров~
+@5071 = ~Багбир~
+@5072 = ~Багбир-шаман~
+@5073 = ~Горчичное желе~
+@5074 = ~Элитный юань-ти~
+@5075 = ~Бешеный гибберлинг~
+@5076 = ~Желе из склепа~
+@5077 = ~Грязевой упырь~
+@5078 = ~Слизь из саркофага~
+@5079 = ~Волк-вампир~
+@5080 = ~Туман вампира~
+@5081 = ~Полуразбитый скелет~
+@5082 = ~Мумия~
+@5083 = ~Великая мумия~
+@5084 = ~Ужасный пожиратель~
+@5085 = ~Юань-ти-полуровка~
+@5086 = ~Хистачи~
+@5087 = ~Леопард~
+@5088 = ~Медведь гризли~
 /////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\////////////////////
 /////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\////////////////////
 /////                                                  					   \\\\\
@@ -582,11 +583,11 @@ This spell conjures forth a +3 enchanted weapon that may be used by anyone. The 
 /////                                                  					   \\\\\
 /////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\////////////////////
 /////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\////////////////////
-@6000 = ~*uses an oil flask*~
-@6001 = ~*quaffs a potion*~
-@6002 = ~Who calls Ben-Hadar, Prince of Water?!~
-@6003 = ~*spits a firebreath potion*~
-@6004 = ~*spits an icebreath potion*~
+@6000 = ~*использует колбу с маслом*~
+@6001 = ~*выпивает зелье*~
+@6002 = ~Кто звал Бен-Хадара, Принца Воды?!~
+@6003 = ~*выплевывает зелье огненного дыхания*~
+@6004 = ~*выплевывает зелье морозного дыхания*~
 /////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\////////////////////
 /////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\////////////////////
 /////                                                  					   \\\\\
@@ -594,10 +595,10 @@ This spell conjures forth a +3 enchanted weapon that may be used by anyone. The 
 /////                                                  					   \\\\\
 /////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\////////////////////
 /////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\////////////////////
-@7000 = ~Axe~
-@7001 = ~Long Sword~
-@7002 = ~Short Sword~
-@7003 = ~Mace~
+@7000 = ~Топор~
+@7001 = ~Длинный меч~
+@7002 = ~Короткий меч~
+@7003 = ~Булава~
 /////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\////////////////////
 /////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\////////////////////
 /////                                                  					   \\\\\
@@ -605,79 +606,79 @@ This spell conjures forth a +3 enchanted weapon that may be used by anyone. The 
 /////                                                  					   \\\\\
 /////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\////////////////////
 /////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\////////////////////
-@8000 = ~Created by the Goodberry spell, these simple looking blueberries will heal 5 points of damage for each bunch of berries eaten.
+@8000 = ~На вид это обычные ягоды черники, однако они созданы заклинанием «Ягода жизни», и каждая съеденная горсть восстанавливает 5 пунктов здоровья.
 
-STATISTICS:
+ПАРАМЕТРЫ:
 
-Special: Heals 5 Hit Points
+Особенности: излечивает 5 пунктов здоровья
 
-Weight: 0~
-@8001 = ~Battle Axe +3~
-@8002 = ~This weapon has been created by the Enchanted Weapon spell. It behaves as a battle axe +3 in all respects.
+Вес: 0~
+@8001 = ~Боевой топор +3~
+@8002 = ~Это оружие создано заклинанием Зачарованное оружие. Оно по всем свойствам подобно топору +3.
 
-STATISTICS:
-
-THAC0: +3
-Damage: 1d8+3 (slashing)
-Speed Factor: 2
-Proficiency Type: Axe
-Type: One-handed
-Requires:
- 10 Strength
-
-Weight: 0~
-@8003 = ~Long Sword +3~
-@8004 = ~This weapon has been created by the Enchanted Weapon spell. It behaves as a long sword +3 in all respects.
-
-STATISTICS:
+ПАРАМЕТРЫ:
 
 THAC0: +3
-Damage: 1d8+3 (slashing)
-Speed Factor: 2
-Proficiency Type: Long Sword
-Type: One-handed
-Requires:
- 6 Strength
+Урон: 1d8+3 (рубящий)
+Фактор скорости: 2
+Оружейный навык: топор
+Тип: одноручное
+Требуется:
+ Сила 10
 
-Weight: 0~
-@8005 = ~Short Sword +3~
-@8006 = ~This weapon has been created by the Enchanted Weapon spell. It behaves as a short sword +3 in all respects.
+Вес: 0~
+@8003 = ~Длинный меч +3~
+@8004 = ~Это оружие создано заклинанием Зачарованное оружие. Оно по всем свойствам подобно длинному мечу +3.
 
-STATISTICS:
-
-THAC0: +3
-Damage: 1d6+3 (piercing)
-Speed Factor: 0
-Proficiency Type: Short Sword
-Type: One-handed
-Requires:
- 5 Strength
-
-Weight: 0~
-@8007 = ~Mace +3~
-@8008 = ~This weapon has been created by the Enchanted Weapon spell. It behaves as a mace +3 in all respects.
-
-STATISTICS:
+ПАРАМЕТРЫ:
 
 THAC0: +3
-Damage: 1d6+4 (crushing)
-Speed Factor: 4
-Proficiency Type: Mace
-Type: One-handed
-Requires:
- 10 Strength
+Урон: 1d8+3 (рубящий)
+Фактор скорости: 2
+Оружейный навык: длинный меч
+Тип: одноручное
+Требуется:
+ Сила 6
 
-Weight: 0~
-@8009 = ~Xvart firebreath potion~
-@8010 = ~Xvart icebreath potion~
-@8011 = ~Slime Zombie Attack~
-@8012 = ~Green Slime Attack~
-@8013 = ~Slime Attack~
-@8014 = ~Vampire Attack~
-@8015 = ~Imbued Wight Attack~
-@8016 = ~Histachii Attack~
-@8017 = ~Snake Attack~
-@8018 = ~Wild Boar Attack~
-@8019 = ~Arctic Boar Attack~
-@8020 = ~Leopard Attack~
-@8021 = ~Grizzly Bear Attack~
+Вес: 0~
+@8005 = ~Короткий меч +3~
+@8006 = ~Это оружие создано заклинанием Зачарованное оружие. Оно по всем свойствам подобно короткому мечу +3.
+
+ПАРАМЕТРЫ:
+
+THAC0: +3
+Урон: 1d6+3 (колющий)
+Фактор скорости: 0
+Оружейный навык: короткий меч
+Тип: одноручное
+Требуется:
+ Сила 5
+
+Вес: 0~
+@8007 = ~Булава +3~
+@8008 = ~Это оружие создано заклинанием Зачарованное оружие. Оно по всем свойствам подобно булаве +3.
+
+ПАРАМЕТРЫ:
+
+THAC0: +3
+Урон: 1d6+4 (дробящий)
+Фактор скорости: 4
+Оружейный навык: булава
+Тип: одноручное
+Требуется:
+ Сила 10
+
+Вес: 0~
+@8009 = ~Зелье огненного дыхания ксвартов~
+@8010 = ~Зелье морозного дыхания ксвартов~
+@8011 = ~Атака зомби-желе~
+@8012 = ~Атака зеленой слизи~
+@8013 = ~Атака слизи~
+@8014 = ~Атака вампира~
+@8015 = ~Атака ужасного пожирателя~
+@8016 = ~Атака хистачи~
+@8017 = ~Атака змеи~
+@8018 = ~Атака дикого вепря~
+@8019 = ~Атака северного медведя~
+@8020 = ~Атака леопарда~
+@8021 = ~Атака медведя гризли~
